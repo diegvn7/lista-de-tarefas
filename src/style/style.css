@@ -60,7 +60,9 @@ main {
     width: 100%;
     box-shadow: 0 0 20px #ccc;
     border-radius: 0px 10px 10px 0px;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+    cursor: pointer;
+
 }
 
 .item.clicado {
@@ -100,10 +102,6 @@ main {
     width: 100%;
     border-radius: 0px 10px 10px 0px;
     cursor: pointer;
-}
-
-.clicked {
-    background-color: rgba(255, 0, 0, 0.726);
 }
 
 .fa-circle-check {
