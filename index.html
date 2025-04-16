@@ -12,33 +12,10 @@
 
     <header>
         <input type="text" name="tarefa" id="tarefa" placeholder="Digite sua tarefa...">
-        <button class="add">ADICIONAR</button>
+        <button class="add" onclick="addTarefa()">ADICIONAR</button>
     </header>
 
     <main id="areaLista">
-        <div class="item">
-            <div class="item-icone">
-                <i class="fa-regular fa-circle"></i>
-            </div>
-            <div class="item-nome">
-                Teste de tarefa
-            </div>
-            <div class="item-botao">
-                <button class="delete"> <i class="fa-solid fa-trash"></i> DELETAR</button>
-            </div>
-        </div>
-
-        <div class="item clicado">
-            <div class="item-icone">
-                <i class="fa-solid fa-circle-check"></i>
-            </div>
-            <div class="item-nome">
-                Teste de tarefa
-            </div>
-            <div class="item-botao">
-                <button class="delete clicked"> <i class="fa-solid fa-trash"></i> DELETAR</button>
-            </div>
-        </div>
     </main>
 
     <script src="src/js/script.js"></script>
