@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/style/style.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+
+    <header>
+        <input type="text" name="tarefa" id="tarefa" placeholder="Digite sua tarefa...">
+        <button class="add">ADICIONAR</button>
+    </header>
+
+    <main id="areaLista">
+        <div class="item">
+            <div class="item-icone">
+                <i class="fa-regular fa-circle"></i>
+            </div>
+            <div class="item-nome">
+                Teste de tarefa
+            </div>
+            <div class="item-botao">
+                <button class="delete"> <i class="fa-solid fa-trash"></i> DELETAR</button>
+            </div>
+        </div>
+
+        <div class="item clicado">
+            <div class="item-icone">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="item-nome">
+                Teste de tarefa
+            </div>
+            <div class="item-botao">
+                <button class="delete clicked"> <i class="fa-solid fa-trash"></i> DELETAR</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
